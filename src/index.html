@@ -1,22 +1,75 @@
 ---
 layout: default
-title: Neat Starter
+title: Galint Gaming
 path: home
 ---
 
-<div class="container mx-auto lg:h-screen flex flex-col justify-center items-center">
-  <h1>
-    Welcome to
-    <strong class="bg-clip-text text-transparent bg-gradient-to-r from-blue-500 to-purple-500">
-      {{title}}
-    </strong>
-  </h1>
+<section class="w-full bg-gradient-to-b to-galint-purple from-galint-purple-darker relative">
+  <div class="container text-white py-52">
+    <h1 class="font-tahoma font-bold text-[38px] leading-[50px] text-center tracking-[1px] mx-auto max-w-[600px]">The biggest tournament events in Vancouver</h1>
+    <p class="mt-4 font-lato text-[18px] leading-[24px] text-center mx-auto max-w-[400px]">We love what we do and we do it well! Learn more about how we bring the best to the table.</p>
+  </div>
+  <div class="bottom-0 w-full flex justify-between">
+    <img src="/static/img/frame-left.svg" class="" alt="">
+    <img src="/static/img/frame-right.svg" alt="">
+  </div>
+</section>
 
-  <p>
-    <abbr title="netlify cms, eleventy, alpine js & tailwind css">NEAT</abbr>
-    Starter Template. Get Started by editing.
-    <code class="bg-gray-100 text-blue-800 p-1">/index.njk</code>
-  </p>
+<section class="w-full bg-white">
+  <div class="w-[480px] py-24 mx-auto">
+    <h2 class="font-tahoma font-bold text-2xl leading-snug text-center tracking-[0.5px] mx-auto">Bringing esports events and entertainment to a new audience</h2>
+    <p class="mt-4 font-lato text-base text-center mx-auto max-w-xl">
+      We're building something great. To ship the greatest possible product and provide the most interesting content to our community we need the very best people working behind the scenes to make it all happen.
+    </p>
+  </div>
+</section>
 
-  {% include "./_includes/partials/content.html" %}
-</div>
+<section class="bg-white w-full">
+  <div class="overflow-hidden w-full h-[650px] bg-no-repeat bg-scroll object-fill img-grid"></div>
+</section>
+
+<section class="w-full bg-white">
+  <div class="container py-24 mx-auto">
+    <h2 class="font-tahoma font-bold text-2xl text-center tracking-[0.5px] mx-auto mb-8">Featured Events</h2>
+    
+    <div class="grid grid-cols-1 md:grid-cols-3 gap-4 w-[905px] mx-auto">
+      <a href="#" class="bg-red-500 w-[290px] h-[360px] relative">
+        <img src="/static/img/card-cover-bobc.jpg" class="w-full h-full object-cover" alt="background">
+        <img src="/static/img/icon-bobc.png" class="absolute top-1/2 left-1/2 -translate-x-1/2 -translate-y-1/2" alt="icon">
+      </a>
+      
+      <a href="#" class="bg-pink-500 w-[290px] h-[360px] relative">
+        <img src="/static/img/card-cover-pinnacle.jpg" class="w-full h-full object-cover" alt="background">
+        <img src="/static/img/icon-pinnacle.png" class="absolute top-1/2 left-1/2 -translate-x-1/2 -translate-y-1/2" alt="icon">
+      </a>
+
+      <a href="#" class="bg-cyan-500 w-[290px] h-[360px] relative">
+        <img src="/static/img/card-cover-pwh.jpg" class="w-full h-full object-cover" alt="">
+        <img src="/static/img/icon-pwh.png" class="absolute top-1/2 left-1/2 -translate-x-1/2 -translate-y-1/2" alt="icon">
+      </a>
+    </div>
+  </div>
+</section>
+
+<section class="w-full bg-[url('/static/img/bot-banner.png')] bg-cover">
+  <div class="container h-[480px] mx-auto flex items-center">
+    <h2 class="font-tahoma font-bold text-[32px] leading-[42px] tracking-[0.5px] text-white whitespace-pre-line">A proven track <br /> record of world <br /> class experiences</h2>
+  </div>
+</section>
+
+<section class="bg-galint-purple-dark  py-12">
+  <div class="max-w-lg mx-auto">
+    <h2 class="text-white font-tahoma font-bold text-4xl text-center tracking-[0.5px] mx-auto mb-8">Let's get in touch</h2>
+    <form name="contact" netlify>
+      <label for="fname" class="text-white font-lato text-sm mb-1">Name</label><br>
+      <input type="text" id="fname" name="fname" value="" class="w-full mb-4 text-sm py-2 px-3" required><br>
+      <label for="email" class="text-white font-lato text-sm mb-1">Email Address</label><br>
+      <input type="email" id="email" name="email" value="" class="w-full mb-4 text-sm py-2 px-3" required><br>
+      <label for="message" class="text-white font-lato text-sm mb-1">Message</label><br>
+      <input type="text" id="message" name="message" value="" class="w-full mb-4 text-sm py-2 px-3" required><br><br>
+      <div class="w-full flex items-center">
+        <input type="submit" value="Submit" class="text-white bg-galint-purple mx-auto px-8 py-2 font-sans font-bold cursor-pointer">
+      </div>
+    </form>
+  </div>
+</section>
