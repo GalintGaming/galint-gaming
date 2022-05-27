@@ -1,0 +1,13 @@
+events:
+  - title: Battle of BC 4
+    background: /static/img/card-cover-bobc.jpg
+    icon: /static/img/icon-bobc.png
+    url: https://www.start.gg/tournament/battle-of-bc-4-2
+  - title: Pinnacle
+    background: /static/img/card-cover-pinnacle.jpg
+    icon: /static/img/icon-pinnacle.png
+    url: https://www.start.gg/tournament/play-with-heart
+  - title: Play With Heart
+    background: /static/img/card-cover-pwh.jpg
+    icon: /static/img/icon-pwh.png
+    url: https://www.start.gg/tournament/play-with-heart
