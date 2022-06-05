@@ -6,7 +6,7 @@ events:
   - title: Pinnacle
     background: /static/img/card-cover-pinnacle.jpg
     icon: /static/img/icon-pinnacle.png
-    url: https://www.start.gg/tournament/play-with-heart
+    url: https://www.start.gg/tournament/pinnacle-2021/
   - title: Play With Heart
     background: /static/img/card-cover-pwh.jpg
     icon: /static/img/icon-pwh.png
